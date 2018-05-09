@@ -1,0 +1,80 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#app{
+    height: 100%;
+}
+.deity{
+    height: 100%;
+}
+.cardBox{
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    max-width:600px;
+}
+.endbox{
+    text-align: center;
+}
+.startbox{
+    text-align: center;
+    margin-top: 40%;
+    .startbutton{
+        border:1px solid #333;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        width: 100px;
+    }
+}
+
+.timebox{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.card{
+    position: absolute;
+    // width: 80px;
+    height:120px;
+    border: solid 1px #333;
+    transition:transform 0.5s;
+}
+
+.card1{background:red;}
+.card2{background:blue;}
+.card3{background:green;}
+.card4{background:yellow;}
+.card5{background:orange;}
+.card6{background:purple;}
+.card:hover
+{
+    box-shadow: 0 0 40px #aaa;
+
+}
+.back{
+    background: #efefef;
+    z-index: 8;
+}
+.front{
+    /*保证牌底在牌面下面，z-index值切换为小值*/
+    z-index: 8;
+    transform: rotateY(180deg);
+}
+.back{
+    /*保证牌底在牌面上面，z-index值切换为大值*/
+    z-index: 10;
+    /*前面牌面已经翻过去，现在返回来*/
+    transform: rotateY(0deg);
+}
+/*移除牌*/
+.cardHide{
+    opacity: 0;
+}
