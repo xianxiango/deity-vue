@@ -18,4 +18,4 @@ npm run build
 npm run build --report
 ```
 
-[试玩一下吧](https://xianxiango.github.io/deity-vue/#/)
+[试玩一下吧](https://xianxiango.github.io/deity-vue/dist/)
