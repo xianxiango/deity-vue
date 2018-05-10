@@ -5,8 +5,8 @@
         <div class="timebox">
             <div v-if="arrObj">{{time}}</div>
         </div>
-        <div v-if="!arrObj" @click="init" class="startbox">
-            <div class="startbutton">{{buttonText}}</div>
+        <div v-if="!arrObj"  class="startbox">
+            <div class="startbutton" @click="init">{{buttonText}}</div>
         </div>
         <div v-if="!arrObj" class="endbox">{{end}}</div>
         <Card 
@@ -54,6 +54,7 @@ export default {
             this.arrObj = true;
             let _this = this;
             this.matchCont = 0;
+            this.time = 0;
             this.intervalid = setInterval(function(){
                 _this.time++;
             },1000)
@@ -113,7 +114,6 @@ export default {
     },
     watch:{
         matchCont:function(val){
-            console.log(val)
             if(val==(this.GLOBAL.deck.length/2)){
                 this.arrObj=false
                 this.buttonText="再来一盘"

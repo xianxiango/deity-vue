@@ -19,15 +19,19 @@ body{
     position: relative;
     margin: 0 auto;
     max-width:600px;
+    background: #263630;
 }
 .endbox{
     text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
 }
 .startbox{
+    color: #ffffff;
     text-align: center;
     margin-top: 40%;
     .startbutton{
-        border:1px solid #333;
+        border:1px solid #ffffff;;
         border-radius: 4px;
         display: inline-block;
         cursor: pointer;
@@ -39,28 +43,33 @@ body{
     height: 50px;
     line-height: 50px;
     text-align: center;
+    color: #ffffff;
 }
 .card{
+    border-radius: 6px;
     position: absolute;
     // width: 80px;
     height:120px;
     border: solid 1px #333;
     transition:transform 0.5s;
+    
 }
 
-.card1{background:red;}
-.card2{background:blue;}
-.card3{background:green;}
-.card4{background:yellow;}
-.card5{background:orange;}
-.card6{background:purple;}
+.card1{background:url(/static/pokemon052.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card2{background:url(/static/pokemon007.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card3{background:url(/static/pokemon001.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card4{background:url(/static/pokemon025.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card5{background:url(/static/pokemon004.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card6{background:url(/static/pokemon054.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
 .card:hover
 {
     box-shadow: 0 0 40px #aaa;
 
 }
 .back{
-    background: #efefef;
+    background: url(/static/timgball.jpeg)0 0 no-repeat #efefef;
+    background-position:center;
+    background-size:95%;
     z-index: 8;
 }
 .front{
@@ -76,5 +85,5 @@ body{
 }
 /*移除牌*/
 .cardHide{
-    opacity: 0;
+    visibility: hidden;
 }

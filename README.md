@@ -1,6 +1,6 @@
 # deity-vue
 
-> A Vue.js project
+> 神经衰弱纸牌游戏
 
 ## Build Setup
 
@@ -18,4 +18,4 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[试玩一下吧](https://xianxiango.github.io/deity-vue/#/)
