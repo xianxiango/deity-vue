@@ -55,19 +55,19 @@ body{
     
 }
 
-.card1{background:url(/static/pokemon052.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
-.card2{background:url(/static/pokemon007.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
-.card3{background:url(/static/pokemon001.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
-.card4{background:url(/static/pokemon025.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
-.card5{background:url(/static/pokemon004.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
-.card6{background:url(/static/pokemon054.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card1{background:url(../assets/pokemon052.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card2{background:url(../assets/pokemon007.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card3{background:url(../assets/pokemon001.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card4{background:url(../assets/pokemon025.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card5{background:url(../assets/pokemon004.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
+.card6{background:url(../assets/pokemon054.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
 .card:hover
 {
     box-shadow: 0 0 40px #aaa;
 
 }
 .back{
-    background: url(/static/timgball.jpeg)0 0 no-repeat #efefef;
+    background: url(../assets/timgball.jpeg)0 0 no-repeat #efefef;
     background-position:center;
     background-size:95%;
     z-index: 8;
