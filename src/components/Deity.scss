@@ -54,7 +54,19 @@ body{
     transition:transform 0.5s;
     
 }
-
+#preloader {
+    /* Images you want to preload*/
+    background:url(../assets/pokemon052.png);
+    background:url(../assets/pokemon007.png);
+    background:url(../assets/pokemon001.png);
+    background:url(../assets/pokemon025.png);
+    background:url(../assets/pokemon004.png);
+    background:url(../assets/pokemon054.png);
+    background: url(../assets/timgball.jpeg);
+    width: 0;
+    height: 0;
+    display: inline;
+}
 .card1{background:url(../assets/pokemon052.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
 .card2{background:url(../assets/pokemon007.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
 .card3{background:url(../assets/pokemon001.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
