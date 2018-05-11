@@ -54,19 +54,20 @@ body{
     transition:transform 0.5s;
     
 }
-#preloader {
-    /* Images you want to preload*/
-    background:url(../assets/pokemon052.png);
-    background:url(../assets/pokemon007.png);
-    background:url(../assets/pokemon001.png);
-    background:url(../assets/pokemon025.png);
-    background:url(../assets/pokemon004.png);
-    background:url(../assets/pokemon054.png);
-    background: url(../assets/timgball.jpeg);
+.preloader {
     width: 0;
     height: 0;
     display: inline;
 }
+.preloader1 {background-image:url(../assets/pokemon052.png);}
+.preloader2 {background-image:url(../assets/pokemon007.png);}
+.preloader3 {background-image:url(../assets/pokemon001.png);}
+.preloader4 {background-image:url(../assets/pokemon025.png);}
+.preloader5 {background-image:url(../assets/pokemon004.png);}
+.preloader6 {background-image:url(../assets/pokemon054.png);}
+.preloader7 {background-image:url(../assets/timgball.jpeg);}
+
+
 .card1{background:url(../assets/pokemon052.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
 .card2{background:url(../assets/pokemon007.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}
 .card3{background:url(../assets/pokemon001.png)0 0 no-repeat#ffffff;background-size:100%;background-position:center;}

@@ -1,6 +1,13 @@
 <template>
   <div class="deity"   >
-    <div id="preloader"></div>
+    
+        <div class="preloader preloader1"></div>
+        <div class="preloader preloader2"></div>
+        <div class="preloader preloader3"></div>
+        <div class="preloader preloader4"></div>
+        <div class="preloader preloader5"></div>
+        <div class="preloader preloader6"></div>
+        <div class="preloader preloader7"></div>
     <div class="cardBox" id="cardBox">
         <div class="timebox">
             <div v-if="arrObj">{{time}}</div>
